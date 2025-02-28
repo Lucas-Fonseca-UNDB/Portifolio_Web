@@ -1,243 +1,244 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Portfólio interativo de Lucas Fonseca, Cientista de Dados Júnior. Explore projetos e contribuições para a ciência de dados.">
-  <title>Portfólio</title>
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-    type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="./script.js" defer=""></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Lucas Fonseca - Desenvolvedor Web">
+    <meta name="keywords" content="portfolio, desenvolvedor, web, bootstrap, frontend">
+    <title>Portfólio - Lucas Fonseca</title>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <div class="container">
-      <h1>Lucas Fonseca</h1>
-      <p>Cientista de Dados Júnior | Engenheiro de Software</p>
-      <nav>
-        <ul>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lucas Fonseca</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#softskills">Soft Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardskills">Hard Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <main>
     <!-- Seção Sobre -->
-    <section id="about">
-      <h2>Sobre Mim</h2>
-      <p>Sou um entusiasta da tecnologia e estudante de Engenharia de Software, atualmente no 9° périodo, com um forte interesse em Ciência de
-        Dados.
-        Desde cedo, sempre fui fascinado pela maneira como os dados podem contar histórias e ajudar a resolver problemas
-        do mundo real.
-        Essa paixão me levou a escolher uma carreira onde posso explorar essa interseção entre tecnologia e análise.</p>
-      <p>Ao longo da minha jornada acadêmica, tive a oportunidade de participar de projetos colaborativos que me
-        permitiram aplicar conceitos teóricos em situações práticas.
-        Essas experiências não só ampliaram meu conhecimento técnico, mas também me ensinaram a importância do trabalho
-        em equipe e da comunicação eficaz.
-        Cada desafio enfrentado se tornou uma oportunidade de aprendizado e crescimento.</p>
-      <p>Fora do ambiente acadêmico, sou um grande fã de musculação e da cultura de japonesa.
-        Gosto de ir a academia, especialmente em treinos de membros superiores, que me ajudam a relaxar e a manter a saúde
-        fisica.
-        Também sou apaixonado por tecnologia e frequentemente exploro novas ferramentas e tendências no campo da ciência
-        de dados.
-        Nos meus momentos livres, gosto de assistir filmes, séries, animes e ler livros sobre tecnologia, desenvolvimento e mangas.</p>
-      <p>Estou entusiasmado com as oportunidades que o futuro reserva na área de Ciência de Dados, especialmente no campo da Inteligência Artificial. 
-        Meu objetivo é contribuir para projetos que realmente façam a diferença, utilizando dados e algoritmos avançados para gerar insights que ajudem empresas a tomar decisões mais informadas e estratégicas. Estou aberto a novas experiências e ansioso para aprender com profissionais da área, sempre buscando crescer tanto pessoal quanto profissionalmente. 
-        Acredito que a combinação de Ciência de Dados e Inteligência Artificial é fundamental para enfrentar os desafios do mundo moderno e impulsionar a inovação.</p>
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 mt-15">Sobre Mim</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/perfil.png" alt="Foto de Lucas Fonseca" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8 text-justify">
+                    <p>Sou um entusiasta da tecnologia e estudante de Engenharia de Software, atualmente no 9° périodo, com um forte interesse em Ciência de
+                        Dados.
+                        Desde cedo, sempre fui fascinado pela maneira como os dados podem contar histórias e ajudar a resolver problemas
+                        do mundo real.
+                        Essa paixão me levou a escolher uma carreira onde posso explorar essa interseção entre tecnologia e análise.
+                    </p>
+                    <p>Ao longo da minha jornada acadêmica, tive a oportunidade de participar de projetos colaborativos que me
+                        permitiram aplicar conceitos teóricos em situações práticas.
+                        Essas experiências não só ampliaram meu conhecimento técnico, mas também me ensinaram a importância do trabalho
+                        em equipe e da comunicação eficaz.
+                        Cada desafio enfrentado se tornou uma oportunidade de aprendizado e crescimento.
+                    </p>
+                    <p>Fora do ambiente acadêmico, sou um grande fã de musculação e da cultura de japonesa.
+                        Gosto de ir a academia, especialmente em treinos de membros superiores, que me ajudam a relaxar e a manter a saúde
+                        fisica.
+                        Também sou apaixonado por tecnologia e frequentemente exploro novas ferramentas e tendências no campo da ciência
+                        de dados.
+                        Nos meus momentos livres, gosto de assistir filmes, séries, animes e ler livros sobre tecnologia, desenvolvimento e mangas.
+                    </p>
+                    <p>Estou entusiasmado com as oportunidades que o futuro reserva na área de Ciência de Dados, especialmente no campo da Inteligência Artificial. 
+                        Meu objetivo é contribuir para projetos que realmente façam a diferença, utilizando dados e algoritmos avançados para gerar insights que ajudem empresas a tomar decisões mais informadas e estratégicas. Estou aberto a novas experiências e ansioso para aprender com profissionais da área, sempre buscando crescer tanto pessoal quanto profissionalmente. 
+                        Acredito que a combinação de Ciência de Dados e Inteligência Artificial é fundamental para enfrentar os desafios do mundo moderno e impulsionar a inovação.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Seção Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <!-- Coluna Soft Skills -->
-        <div class="skills-column">
-          <h3>Soft</h3>
-          <div class="skills-list">
-            <ul>
-              <li>Pensamento Crítico</li>
-              <li>Comunicação</li>
-              <li>Colaboração</li>
-              <li>Organização</li>
-              <li>Flexibilidade</li>
-              <li>Adaptabilidade</li>
-            </ul>
-            <ul>
-              <li>Resolução de Problemas</li>
-              <li>Proatividade</li>
-              <li>Empatia</li>
-              <li>Ética Profissional</li>
-              <li>Metodologia Ágil</li>
-              <li>Inglês</li>
-            </ul>
-          </div>
+    <!-- Seção Soft Skills -->
+    <section id="softskills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Soft Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Pensamento Crítico</h3>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Resolução de Problemas</h3>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Comunicação Eficiente</h3>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Colaboração</h3>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Adaptabilidade</h3>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Organização</h3>
+                </div>
+            </div>
         </div>
-        <!-- Coluna Hard Skills -->
-        <div class="skills-column">
-          <h3>Hard</h3>
-          <div class="skills-list">
-            <ul>
-              <li>Python</li>
-              <li>SQL</li>
-              <li>MySQL</li>
-              <li>Git e GitHub</li>
-              <li>Anaconda</li>
-              <li>Jupyter</li>
-              <li>VS Code</li>
-            </ul>
-            <ul>
-              <li>Excel</li>
-              <li>Power BI</li>
-              <li>Microsoft Office</li>
-              <li>Linux</li>
-              <li>Insights de Dados</li>
-              <li>Mineração de Dados</li>
-              <li>Machine Learning</li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </section>
 
+    <!-- Seção Hard Skills -->
+    <section id="hardskills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Hard Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Python</h3>
+                    <p class="text-justify">Programação avançada para ciência de dados, com expertise em manipulação de dados (Pandas, NumPy), visualização sofisticada (Matplotlib, Seaborn), machine learning (Scikit-learn), deep learning (TensorFlow, Keras) e processamento de imagens (OpenCV, Pillow).</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>SQL</h3>
+                    <p class="text-justify">Domínio em consultas e manipulação de grandes bases de dados relacionais, otimizando queries para eficiente extração e transformação de dados críticos para análises.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Git/Github</h3>
+                    <p class="text-justify">Gerenciamento eficiente de código com controle de versão, mantendo projetos organizados e facilitando colaboração em equipes de análise de dados com práticas de desenvolvimento modernas.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Jupyter</h3>
+                    <p class="text-justify">Criação de notebooks interativos que combinam código, visualizações e narrativas explicativas, proporcionando transparência e reprodutibilidade em análises complexas.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Anaconda</h3>
+                    <p class="text-justify">Configuração e manutenção de ambientes Python isolados e otimizados para ciência de dados, garantindo consistência e compatibilidade entre diferentes projetos e dependências.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <h3>Docker</h3>
+                    <p class="text-justify">Implementação de soluções containerizadas que garantem a portabilidade e escalabilidade de modelos analíticos em diferentes ambientes de produção.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Seção Projetos -->
-    <section id="projects">
-      <h2>Projetos</h2>
-      <div class="project-grid">
-
-        <!-- Card do Projeto 1 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\feijão.jpg" alt="Projeto 1">
-              <h3>Classificação de Feijões com Machine Learning</h3>
+    <section id="projetos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/feijão.jpg" alt="Projeto 1" class="card-img-top img-fluid project-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Classificação de Feijões com Machine Learning</h5>
+                            <!--<p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>-->
+                            <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-IA/PBL1-Classifica%C3%A7%C3%A3o%20de%20tipos%20de%20feij%C3%A3o%20usando%20descritores%20de%20forma"
+                            target="_blank" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/analise_de_sentimento.png" alt="Projeto 2" class="card-img-top img-fluid project-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Análise de Sentimento em Mensagens com NLP</h5>
+                            <!--<p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>-->
+                            <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-IA/PBL3-%20Aplica%C3%A7%C3%B5es%20de%20NLP%20no%20combate%20%C3%A0%20viol%C3%AAncia%20dentro%20das%20escolas"
+                            target="_blank" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/reconhecimento de emoções.png" alt="Projeto 3" class="card-img-top img-fluid project-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Reconhecimento de Emoções com OpenCV</h5>
+                            <!--<p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>-->
+                            <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-Vis%C3%A3o-Computacional/PBL-2"
+                            target="_blank"" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/projeto1.jpg" alt="Projeto 4" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 4</h5>
+                            <p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/projeto1.jpg" alt="Projeto 5" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 5</h5>
+                            <p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="assets/images/projeto1.jpg" alt="Projeto 6" class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Detecção De Ervas Daninhas Em Talhões De Soja</h5>
+                            <p class="card-text">Descrição breve do projeto e tecnologias utilizadas.</p>
+                            <a href="#" class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>-->
             </div>
-            <div class="card-back">
-              <p>
-                Projeto de classificação de feijões utilizando Machine Learning para identificar diferentes tipos com base em características. 
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-IA/PBL1-Classifica%C3%A7%C3%A3o%20de%20tipos%20de%20feij%C3%A3o%20usando%20descritores%20de%20forma"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
         </div>
-
-        <!-- Card do Projeto 2 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\analise_de_sentimento.png" alt="Projeto 2">
-              <h3>Análise de Sentimento em Mensagens com NLP</h3>
-            </div>
-            <div class="card-back">
-              <p>
-                Projeto de análise de sentimento em mensagens do twitter utilizando Processamento de Linguagem Natural (NLP).
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-IA/PBL3-%20Aplica%C3%A7%C3%B5es%20de%20NLP%20no%20combate%20%C3%A0%20viol%C3%AAncia%20dentro%20das%20escolas"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card do Projeto 3 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\reconhecimento de emoções.png" alt="Projeto 3">
-              <h3>Reconhecimento de Emoções com OpenCV</h3>
-            </div>
-            <div class="card-back">
-              <p>
-                Projeto de reconhecimento de emoções utilizando OpenCV para detectar expressões faciais com webcam.
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-Vis%C3%A3o-Computacional/PBL-2"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card do Projeto 4 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\calculadora.png" alt="Projeto 4">
-              <h3>Calculadora Científica com Tkinter</h3>
-            </div>
-            <div class="card-back">
-              <p>
-                Projeto de uma calculadora Científica desenvolvida com Tkinter, permitindo realizar operações varias operações matemáticas.
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/Projetos/tree/ecc382351d214aa33cc1500b4efcba7c68c3c5c4/Calculadora_Cientifica_Tkinter"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card do Projeto 5 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\soja.png" alt="Projeto 5">
-              <h3>Detecção De Ervas Daninhas Em Talhões De Soja</h3>
-            </div>
-            <div class="card-back">
-              <p>
-                Projeto de detecção de ervas daninhas em talhões de soja utilizando visão computacional e imagens aéreas capturadas por drones.
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/UNDB/tree/148b1978827dba7604ad920b70a4aa3af2190386/Cadeira-de-IA/PBL1-Classifica%C3%A7%C3%A3o%20de%20tipos%20de%20feij%C3%A3o%20usando%20descritores%20de%20forma"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card do Projeto 6 -->
-        <div class="project-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img src="img\E-commerce.jpg" alt="Projeto 6">
-              <h3>E-Commerce com Django e React Native</h3>
-            </div>
-            <div class="card-back">
-              <p>
-                Projeto de E-commerce desenvolvido com Django no backend e React Native no frontend.
-            
-              </p>
-              <a href="https://github.com/Lucas-Fonseca-UNDB/Projeto_E-Commerce"
-                target="_blank">Veja no GitHub</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </section>
 
-    <!-- Seção Contato -->
-    <section id="contact">
-      <h2>Contato</h2>
-      <p>Entre em contato comigo:</p>
-      <ul id="social-media">
-        <li id="social-media"><a href="mailto:lucasfonseca210@gmail.com.com"><img src="img\email_r.png"
-              alt="Email Icon">Email</a></li>
-        <li id="social-media"><a href="https://www.linkedin.com/in/lucasfonseca-dev/" target="_blank"><img
-              src="img\linkedin_r.png" alt="LinkedIn Icon">LinkedIn</a></li>
-        <li id="social-media"><a href="https://github.com/Lucas-Fonseca-UNDB" target="_blank"><img
-              src="img\github_r.png" alt="GitHub Icon">GitHub</a></li>
-      </ul>
-    </section>
-  </main>
+    <!-- Seção Contato 
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>-->
 
-  <footer>
-    <p>© 2024 Lucas Fonseca. Todos os direitos reservados.</p>
-  </footer>
+    <!-- Botão Voltar ao Topo -->
+    <a href="#" class="btn btn-primary btn-floating" id="btn-topo">
+        ↑
+    </a>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
-
 </html>
