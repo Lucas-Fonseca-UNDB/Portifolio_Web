@@ -48,3 +48,8 @@ section {
     height: 350px; /* Ajuste a altura conforme necessário */
     object-fit: cover; /* Mantém a proporção da imagem e preenche o contêiner */
 }
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
